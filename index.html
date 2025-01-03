@@ -1,70 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Alexis Plumbing</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <header id="header">
-        <div class="logo">
-            <img src="./img/Alexis.png" alt="Alexis Plumbing" id="header-img">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alexis Plumbing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="logo">
+      <img src="./img/Alexis.png" alt="Alexis Plumbing" id="header-img">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li>
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#our-work">Our Work</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="subscription">
+      <h2 class="bigger-text red">Clogged Pipes? We’ll Crack It Open!</h2>
+      <p>Subscribe to our newsletter</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input id="email" name="email" type="email" placeholder="Please enter your E-mail">
+        <input id="submit" type="submit">
+      </form>
+    </section>
+    <section id="features">
+      <div class="feature">
+        <div>
+          <h2 class="bigger-text red">24/7 Emergency Services</h2>
+          <p>Plumbing problems can strike at any time. That’s why we’re available 24/7 for emergency services. No matter
+            the hour, we’re ready to fix your issue fast and professionally.</p>
+            <img class="icon" src="./img/icons/clock.png" alt="clock image">
         </div>
-      <nav id="nav-bar">
+      </div>
+      <div class="feature">
+        <div>
+          <h2 class="bigger-text red">Upfront Pricing with No Hidden Fees</h2>
+          <p>We offer upfront pricing with no hidden costs. You’ll know exactly what you’re paying before we start,
+            ensuring honest and transparent service every time.</p>
+            <img class="icon" src="./img/icons/deal.png" alt="handshake image">
+        </div>
+      </div>
+      <div class="feature">
+        <div>
+          <h2 class="bigger-text red">Eco-Friendly & Water-Saving Solutions</h2>
+          <p>Save water and reduce your bills with our eco-friendly plumbing solutions. We offer water-saving fixtures
+            and green installations to make your home more efficient and environmentally friendly.</p>
+            <img class="icon" src="./img/icons/save-water.png" alt="ecofriendly image">
+        </div>
+      </div>
+    </section>
+    <section id="advertisment">
+      <p class="bigger-text red">Our professionals at work 😉</p>
+      <iframe id="video" width="660" height="415"
+        src="https://www.youtube.com/embed/OP30okjpCko?si=uQEHh-WcWnp324pl&amp;controls=0" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section id="memberships">
+      <div class="membership-flex-container">
+        <div class="membership-container">
+          <h3 class="bold bigger-text red">Basic Membership</h3>
+          <p class="price bold bigger-text">299</p>
+          <ul>
+            <li><span class="bold">Priority scheduling </span>for non-emergency services</li>
+            <li><span class="bold">10% discount </span>on all repairs and installations</li>
+            <li><span class="bold">Free annual plumbing inspection</span></li>
+            <li><span class="bold">Basic drain cleaning </span>included once a year</li>
+          </ul>
+          <button type="button">Select</button>
+        </div>
+        <div class="membership-container">
+          <h3 class="bold bigger-text red">Expensive Membership</h3>
+          <p class="price bold bigger-text">499</p>
+          <ul>
+            <li><span class="bold">24/7 emergency service </span>without additional fees</li>
+            <li><span class="bold">15% discount </span>on all services</li>
+            <li><span class="bold">Two free inspections </span>annually, including water heater checks</li>
+            <li><span class="bold">Extended warranty </span>on parts and labor</li>
+          </ul>
+          <button type="button">Select</button>
+        </div>
+        <div class="membership-container">
+          <h3 class="bold bigger-text red">VIP Membership</h3>
+          <p class="price bold bigger-text">799</p>
+          <ul>
+            <li><span class="bold">Unlimited emergency services, </span>priority scheduling for all</li>
+            <li><span class="bold">20% discount </span>on all plumbing and renovation services</li>
+            <li><span class="bold">Unlimited free inspections </span>for any system (drains, heaters, pipes)</li>
+            <li><span class="bold">Free water filtration system installation and maintenance</span></li>
+          </ul>
+          <button type="button">Select</button>
+        </div>
+      </div>
+      <p class="info bold bigger-text red">All memberships are billed annualy. 💰</p>
+    </section>
+    <section id="reviews">
+      <div class="bigger-text red">Check out what our customers had to say about us</div>
+      <ul>
+        <li class="customer-review">
+          <p class="customer-name bigger-text bold"><span>Drip McPipes</span>
+          </p>
+          <p class="review">"When my sink turned into a waterfall, these guys showed up faster than my panic could rise. Now my pipes are so smooth, water slides through like it’s on vacation. Highly recommend!"</p>
+        </li>
+        <li class="customer-review">
+          <p class="customer-name bigger-text bold"><span>Flo Leaky</span></p>
+          <p class="review">"I thought I’d need a boat to get through my flooded bathroom, but they fixed it before my rubber ducky even noticed. Five stars for saving my floor and my sanity!"</p>
+        </li>
+        <li class="customer-review">
+          <p class="customer-name bigger-text bold"><span>Pluggie Wrenchworth</span></p>
+          <p class="review">"I clogged my toilet so bad I thought it was going to get its own Netflix series. These pros unclogged it and didn’t even laugh at me (at least not to my face). True heroes!"</p>
+        </li>
+        <li class="customer-review">
+          <p class="customer-name bigger-text bold"><span>Klaus-Dieter Rohrbruch</span></p>
+          <p class="review">"I had a blockage that not even Grandma Erna could fix. But then Super Plumber Helmut from this company came and cleared the pipe like it was traffic on the Autobahn! Now everything flows again like the Rhine – fast and reliable. Thanks, guys, you're the real 'Pipe Heroes'!"</p>
+        </li>
+      </ul>
+    </section>
+
+
+    <footer>
+      <div class="credit">
+        <p>Icons Artists:</p>
+        <a href="https://www.flaticon.com/free-icons/clock" title="clock icons">Clock icons created by dmitri13 -
+          Flaticon</a>
+          <a href="https://www.flaticon.com/free-icons/deal" title="deal icons">Deal icons created by Freepik - Flaticon</a>
+          <a href="https://www.flaticon.com/free-icons/save-water" title="save water icons">Save water icons created by
+            Freepik - Flaticon</a>
+      </div>
+      <div class="creator">
+        <a href="#">If you like my work, feel free to get in touch with me!</a>
+      </div>
+      <div class="footer-info">
         <ul>
-          <li>
-            <a class="nav-link" href="#features">Features</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#our-work">Our Work</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#pricing">Pricing</a>
-          </li>
+          <li><a href="#"></a>Privacy</li>
+          <li><a href="#"></a>Terms</li>
+          <li><a href="#"></a>Contact</li>
         </ul>
-      </nav>
-    </header>
-    <main>
-        <section id="subscription">
-          <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-            <input id="email" name="email" type="email" placeholder="Please enter your E-mail">
-            <input id="submit" type="submit">
-          </form>
-        </section>
-        <section id="advertisment">
-          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Nmfj3GNQJWs?si=OB2_pWNm6DZJXmXV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
-        <section id="subscription">
-            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-              <input id="email" name="email" type="email" placeholder="Please enter your E-mail">
-              <input id="submit" type="submit">
-            </form>
-          </section>
-          <section id="advertisment">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Nmfj3GNQJWs?si=OB2_pWNm6DZJXmXV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </section>
-          <section id="subscription">
-            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-              <input id="email" name="email" type="email" placeholder="Please enter your E-mail">
-              <input id="submit" type="submit">
-            </form>
-          </section>
-          <section id="advertisment">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Nmfj3GNQJWs?si=OB2_pWNm6DZJXmXV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </section>
-          <section id="subscription">
-            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-              <input id="email" name="email" type="email" placeholder="Please enter your E-mail">
-              <input id="submit" type="submit">
-            </form>
-          </section>
-          <section id="advertisment">
-            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Nmfj3GNQJWs?si=OB2_pWNm6DZJXmXV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </section>
-        <footer></footer>
-        
-    </main>
-  </body>
+        <span>Copyright 2025, Alexis Plumbing</span>
+      </div>
+    </footer>
+
+  </main>
+</body>
+
 </html>
