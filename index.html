@@ -20,10 +20,10 @@
           <a class="nav-link" href="#features">Features</a>
         </li>
         <li>
-          <a class="nav-link" href="#our-work">Our Work</a>
+          <a class="nav-link" href="#advertisment">Our Work</a>
         </li>
         <li>
-          <a class="nav-link" href="#pricing">Pricing</a>
+          <a class="nav-link" href="#memberships">Pricing</a>
         </li>
       </ul>
     </nav>
@@ -31,10 +31,10 @@
   <main class="container">
     <section id="subscription">
       <h2 class="bigger-text red">Clogged Pipes? We’ll Crack It Open!</h2>
-      <p>Subscribe to our newsletter</p>
+      <p class="bold">Subscribe to our newsletter</p>
       <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
         <input id="email" name="email" type="email" placeholder="Please enter your E-mail">
-        <input id="submit" type="submit">
+        <input id="submit" type="submit" class="button" value="Subscribe">
       </form>
     </section>
     <section id="features">
@@ -65,46 +65,48 @@
     </section>
     <section id="advertisment">
       <p class="bigger-text red">Our professionals at work 😉</p>
-      <iframe id="video" width="660" height="415"
+      <div class="videoWrapper">
+        <iframe id="video" width="660" height="415"
         src="https://www.youtube.com/embed/OP30okjpCko?si=uQEHh-WcWnp324pl&amp;controls=0" title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
     </section>
     <section id="memberships">
       <div class="membership-flex-container">
         <div class="membership-container">
           <h3 class="bold bigger-text red">Basic Membership</h3>
-          <p class="price bold bigger-text">299</p>
+          <p class="price bold bigger-text"><span>299</span></p>
           <ul>
-            <li><span class="bold">Priority scheduling </span>for non-emergency services</li>
-            <li><span class="bold">10% discount </span>on all repairs and installations</li>
-            <li><span class="bold">Free annual plumbing inspection</span></li>
-            <li><span class="bold">Basic drain cleaning </span>included once a year</li>
+            <li><span class="bold blue">Priority scheduling </span>for non-emergency services</li>
+            <li><span class="bold blue">10% discount </span>on all repairs and installations</li>
+            <li><span class="bold blue">Free annual plumbing inspection</span></li>
+            <li><span class="bold blue">Basic drain cleaning </span>included once a year</li>
           </ul>
-          <button type="button">Select</button>
+          <button type="button" class="button">Select</button>
         </div>
         <div class="membership-container">
           <h3 class="bold bigger-text red">Expensive Membership</h3>
-          <p class="price bold bigger-text">499</p>
+          <p class="price bold bigger-text"><span>499</span></p>
           <ul>
-            <li><span class="bold">24/7 emergency service </span>without additional fees</li>
-            <li><span class="bold">15% discount </span>on all services</li>
-            <li><span class="bold">Two free inspections </span>annually, including water heater checks</li>
-            <li><span class="bold">Extended warranty </span>on parts and labor</li>
+            <li><span class="bold blue">24/7 emergency service </span>without additional fees</li>
+            <li><span class="bold blue">15% discount </span>on all services</li>
+            <li><span class="bold blue">Two free inspections </span>annually, including water heater checks</li>
+            <li><span class="bold blue">Extended warranty </span>on parts and labor</li>
           </ul>
-          <button type="button">Select</button>
+          <button type="button" class="button">Select</button>
         </div>
         <div class="membership-container">
           <h3 class="bold bigger-text red">VIP Membership</h3>
-          <p class="price bold bigger-text">799</p>
+          <p class="price bold bigger-text"><span>799</span></p>
           <ul>
-            <li><span class="bold">Unlimited emergency services, </span>priority scheduling for all</li>
-            <li><span class="bold">20% discount </span>on all plumbing and renovation services</li>
-            <li><span class="bold">Unlimited free inspections </span>for any system (drains, heaters, pipes)</li>
-            <li><span class="bold">Free water filtration system installation and maintenance</span></li>
+            <li><span class="bold blue">Unlimited emergency services, </span>priority scheduling for all</li>
+            <li><span class="bold blue">20% discount </span>on all plumbing and renovation services</li>
+            <li><span class="bold blue">Unlimited free inspections </span>for any system (drains, heaters, pipes)</li>
+            <li><span class="bold blue">Free water filtration system installation and maintenance</span></li>
           </ul>
-          <button type="button">Select</button>
+          <button type="button" class="button">Select</button>
         </div>
       </div>
       <p class="info bold bigger-text red">All memberships are billed annualy. 💰</p>
@@ -135,23 +137,23 @@
 
     <footer>
       <div class="credit">
-        <p>Icons Artists:</p>
+        <p class="red bold">Icons Artists:</p>
         <a href="https://www.flaticon.com/free-icons/clock" title="clock icons">Clock icons created by dmitri13 -
           Flaticon</a>
           <a href="https://www.flaticon.com/free-icons/deal" title="deal icons">Deal icons created by Freepik - Flaticon</a>
           <a href="https://www.flaticon.com/free-icons/save-water" title="save water icons">Save water icons created by
             Freepik - Flaticon</a>
       </div>
-      <div class="creator">
-        <a href="#">If you like my work, feel free to get in touch with me!</a>
+      <div class="creator bold">
+        <a href="https://github.com/top-droid">If you like my work, feel free to get in touch with me!</a>
       </div>
       <div class="footer-info">
-        <ul>
-          <li><a href="#"></a>Privacy</li>
-          <li><a href="#"></a>Terms</li>
-          <li><a href="#"></a>Contact</li>
+        <ul class="blue">
+          <li><a href="https://github.com/top-droid">Privacy</a></li>
+          <li><a href="https://github.com/top-droid">Terms</a></li>
+          <li><a href="https://github.com/top-droid">Contact</a></li>
         </ul>
-        <span>Copyright 2025, Alexis Plumbing</span>
+        <span class="red bold">Copyright 2025, Alexis Plumbing</span>
       </div>
     </footer>
 
