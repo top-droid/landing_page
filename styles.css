@@ -253,6 +253,12 @@ footer .credit {
     flex-direction: column;
 }
 
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .footer-info ul {
     list-style: none;
     text-align: center;
@@ -263,6 +269,9 @@ footer .credit {
     margin-bottom: 0.4rem;
 }
 
+.footer-info > span {
+    text-align: center;
+}
 
 
 /* styling */
